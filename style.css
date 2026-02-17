@@ -87,7 +87,7 @@ nav.scrolled { background: rgba(0,0,0,0.8); padding: 15px 5%; }
 /* --- Hero Section --- */
 #hero {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('/img/file-001.png') no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('img/file-001.png') no-repeat center center/cover;
     display: flex; align-items: center; justify-content: center;
 }
 .title-box {
@@ -247,7 +247,11 @@ nav.scrolled { background: rgba(0,0,0,0.85); backdrop-filter: blur(10px); }
     opacity: 0; transform: translateY(40px);
     transition: all 0.8s cubic-bezier(0.22, 1, 0.36, 1);
 }
-.fade-up.visible { opacity: 1; transform: translateY(0); }
+.fade-up.visible {
+    opacity: 1; 
+    transform: translateY(0);
+    margin-bottom: 30%;
+}
 
 /* Центрирование для остальных секций */
 .center { 
