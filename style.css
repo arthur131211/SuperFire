@@ -29,7 +29,10 @@ ul { list-style: none; }
 .fade-up { opacity: 0; transform: translateY(50px); transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 
 /* Класс visible добавляется JS-ом при появлении */
-.fade-in.visible, .fade-up.visible { opacity: 1; transform: translateY(0); }
+.fade-in.visible, .fade-up.visible { 
+    opacity: 1; 
+    transform: 
+    translateY(0); }
 
 .delay-100 { transition-delay: 0.1s; }
 .delay-200 { transition-delay: 0.2s; }
@@ -250,7 +253,6 @@ nav.scrolled { background: rgba(0,0,0,0.85); backdrop-filter: blur(10px); }
 .fade-up.visible {
     opacity: 1; 
     transform: translateY(0);
-    margin-bottom: 30%;
 }
 
 /* Центрирование для остальных секций */
